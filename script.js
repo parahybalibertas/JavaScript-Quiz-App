@@ -110,3 +110,6 @@ const questions = [
     ]
   }
 ]
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = { setStatusClass, clearStatusClass };
+}
