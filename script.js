@@ -13,6 +13,7 @@ nextButton.addEventListener('click', () => {
 })
 
 function startGame() {
+  startButton.innerText = "Start"
   startButton.classList.add('hide')
   shuffledQuestions = questions.sort(() => Math.random() - .5)
   currentQuestionIndex = 0
@@ -109,4 +110,4 @@ const questions = [
       { text: '8', correct: true }
     ]
   }
-]
+];
